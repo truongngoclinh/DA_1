@@ -1,4 +1,4 @@
-package com.boiboi.ds.lib;
+package utils;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -8,7 +8,7 @@ import java.util.Scanner;
  * CLASS DESCRIPTION
  *
  * @author linhtruong
- * @date 4/11/18 - 10:55.
+ * @date 8/14/18 - 10:36.
  * @organization VED
  */
 

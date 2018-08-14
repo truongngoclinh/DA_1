@@ -1,6 +1,6 @@
 package com.boiboi.ds.w1;
 
-import com.boiboi.ds.lib.FileUtils;
+import utils.FileUtils;
 
 import java.util.Scanner;
 
