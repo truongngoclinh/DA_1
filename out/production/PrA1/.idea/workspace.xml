@@ -1,7 +1,297 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99adfa62-db76-48f8-a025-9a3e357de611" name="Default" comment="" />
+    <list default="true" id="99adfa62-db76-48f8-a025-9a3e357de611" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/AVLTreeST$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/AVLTreeST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Accumulator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/AcyclicLP.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/AcyclicSP.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/AdjMatrixEdgeWeightedDigraph$AdjIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/AdjMatrixEdgeWeightedDigraph.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Alphabet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Arbitrage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/AssignmentProblem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Average.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BST$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BTree$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BTree$Entry.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BTree$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BTree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Bag$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Bag$ListIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Bag$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Bag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BellmanFordSP.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BinaryDump.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BinaryIn.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BinaryInsertion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BinaryOut.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BinarySearch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BinarySearchST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BinaryStdIn.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BinaryStdOut.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BinomialMinPQ$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BinomialMinPQ$MyComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BinomialMinPQ$MyIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BinomialMinPQ$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BinomialMinPQ.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Bipartite.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BipartiteMatching.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BipartiteX.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BlackFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BoruvkaMST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BoyerMoore.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BreadthFirstDirectedPaths.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/BreadthFirstPaths.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/CC.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/CPM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Cat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/ClosestPair.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/CollisionSystem$Event.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/CollisionSystem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Complex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Count.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Counter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Cycle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Date.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DeDup.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DegreesOfSeparation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DepthFirstDirectedPaths.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DepthFirstOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DepthFirstPaths.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DepthFirstSearch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Digraph.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DigraphGenerator$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DigraphGenerator$Edge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DigraphGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DijkstraAllPairsSP.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DijkstraSP.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DijkstraUndirectedSP.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DirectedCycle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DirectedCycleX.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DirectedDFS.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DirectedEdge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DirectedEulerianCycle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DirectedEulerianPath.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DoublingRatio.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DoublingTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Draw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/DrawListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Edge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/EdgeWeightedDigraph.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/EdgeWeightedDirectedCycle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/EdgeWeightedGraph.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/EulerianCycle$Edge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/EulerianCycle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/EulerianPath$Edge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/EulerianPath.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/FFT.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/FarthestPair.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/FenwickTree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/FibonacciMinPQ$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/FibonacciMinPQ$MyComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/FibonacciMinPQ$MyIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/FibonacciMinPQ$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/FibonacciMinPQ.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/FileIndex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/FlowEdge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/FlowNetwork.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/FloydWarshall.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/FordFulkerson.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/FrequencyCounter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/GREP.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/GabowSCC.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/GaussJordanElimination.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/GaussianElimination.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Genome.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/GlobalMincut$CutPhase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/GlobalMincut.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/GrahamScan.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Graph.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/GraphGenerator$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/GraphGenerator$Edge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/GraphGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Heap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/HexDump.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/HopcroftKarp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Huffman$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Huffman.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/In.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/IndexBinomialMinPQ$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/IndexBinomialMinPQ$MyComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/IndexBinomialMinPQ$MyIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/IndexBinomialMinPQ$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/IndexBinomialMinPQ.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/IndexFibonacciMinPQ$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/IndexFibonacciMinPQ$MyComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/IndexFibonacciMinPQ$MyIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/IndexFibonacciMinPQ$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/IndexFibonacciMinPQ.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/IndexMaxPQ$HeapIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/IndexMaxPQ.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/IndexMinPQ$HeapIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/IndexMinPQ.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/IndexMultiwayMinPQ$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/IndexMultiwayMinPQ$MyComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/IndexMultiwayMinPQ$MyIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/IndexMultiwayMinPQ.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Insertion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/InsertionX.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Interval1D$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Interval1D$LengthComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Interval1D$MaxEndpointComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Interval1D$MinEndpointComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Interval1D.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Interval2D.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Inversions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/KMP.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/KWIK.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Knuth.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/KosarajuSharirSCC.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/KruskalMST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LSD.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LZW.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LazyPrimMST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LinearProbingHashST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LinearProgramming.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LinearRegression.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LinkedBag$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LinkedBag$ListIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LinkedBag$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LinkedBag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LinkedQueue$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LinkedQueue$ListIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LinkedQueue$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LinkedQueue.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LinkedStack$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LinkedStack$ListIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LinkedStack$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LinkedStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LongestCommonSubstring.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LongestRepeatedSubstring.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LookupCSV.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/LookupIndex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/MSD.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/MaxPQ$HeapIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/MaxPQ.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Merge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/MergeBU.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/MergeX.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/MinPQ$HeapIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/MinPQ.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Multiway.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/MultiwayMinPQ$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/MultiwayMinPQ$MyComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/MultiwayMinPQ$MyIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/MultiwayMinPQ.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/NFA.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/NonrecursiveDFS.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/NonrecursiveDirectedDFS.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Out.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Particle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/PatriciaSET$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/PatriciaSET.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/PatriciaST$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/PatriciaST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Picture.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/PictureDump.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Point2D$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Point2D$Atan2Order.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Point2D$DistanceToOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Point2D$PolarOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Point2D$ROrder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Point2D$XOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Point2D$YOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Point2D.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Polynomial.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/PrimMST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Queue$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Queue$ListIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Queue$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Queue.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Quick.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Quick3string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Quick3way.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/QuickBentleyMcIlroy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/QuickFindUF.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/QuickUnionUF.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/QuickX.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/RabinKarp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/RandomSeq.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/RectHV.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/RedBlackBST$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/RedBlackBST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/ResizingArrayBag$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/ResizingArrayBag$ArrayIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/ResizingArrayBag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/ResizingArrayQueue$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/ResizingArrayQueue$ArrayIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/ResizingArrayQueue.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/ResizingArrayStack$ReverseArrayIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/ResizingArrayStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/RunLength.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/SET.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/ST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/SegmentTree$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/SegmentTree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Selection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/SeparateChainingHashST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/SequentialSearchST$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/SequentialSearchST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Shell.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/SparseVector.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Stack$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Stack$ListIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Stack$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Stack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/StaticSETofInts.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/StdArrayIO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/StdAudio$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/StdAudio.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/StdDraw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/StdIn.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/StdOut.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/StdRandom.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/StdStats.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Stopwatch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/StopwatchCPU.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/SuffixArray$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/SuffixArray$Suffix.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/SuffixArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/SuffixArrayX.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/SymbolDigraph.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/SymbolGraph.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/TST$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/TST$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/TST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/TarjanSCC.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/ThreeSum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/ThreeSumFast.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/TopM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Topological.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/TopologicalX.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Transaction$HowMuchOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Transaction$WhenOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Transaction$WhoOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Transaction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/TransitiveClosure.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/TrieSET$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/TrieSET$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/TrieSET.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/TrieST$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/TrieST$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/TrieST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/TwoPersonZeroSumGame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/UF.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Vector.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/WeightedQuickUnionUF.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/WhiteFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrA1/edu/princeton/cs/algs4/Whitelist.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrA1.iml" afterPath="$PROJECT_DIR$/PrA1.iml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +310,20 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/boiboi/ds/w1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="459">
+              <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StdOut.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/boiboi/ds/lib/StdOut.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,7 +334,7 @@
       <file leaf-file-name="FileUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/boiboi/ds/lib/FileUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="289">
               <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -60,19 +362,6 @@
               <caret line="26" column="3" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
               <folding>
                 <element signature="e#407#408#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeightedQuickUnion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/boiboi/ds/w1/WeightedQuickUnion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-              <folding>
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,6 +429,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -206,9 +498,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,24 +531,21 @@
               <item name="ds" type="462c0819:PsiDirectoryNode" />
               <item name="w1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PrA1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="PrA1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -409,8 +695,8 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3014113" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30059522" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -669,8 +955,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/boiboi/ds/lib/StdOut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="63" column="19" lean-forward="false" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        <state relative-caret-position="289">
+          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -792,7 +1081,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/boiboi/ds/lib/FileUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="289">
           <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -818,8 +1107,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/boiboi/ds/w1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        <state relative-caret-position="459">
+          <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

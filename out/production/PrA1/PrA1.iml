@@ -6,8 +6,6 @@
       <sourceFolder url="file://$MODULE_DIR$/../algs4/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/../KotlinLangsTest" />
-      <excludeFolder url="file://$MODULE_DIR$/../algs4" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
