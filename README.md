@@ -1,2 +1,2 @@
 # DA_1
-My repo for princeton algorithm course in coursera
+My repo for data structure and algorithm learning.
