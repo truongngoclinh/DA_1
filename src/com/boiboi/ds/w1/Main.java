@@ -19,9 +19,9 @@ public class Main {
 
         long t = System.currentTimeMillis();
         UF uf;
-        // uf = new QuickFind(N);
-        // uf = new QuickUnion(N);
-        // uf = new WeightedQuickUnion(N);
+//        uf = new QuickFind(N);
+//        uf = new QuickUnion(N);
+//         uf = new WeightedQuickUnion(N);
         uf = new WeightedQuickUnionWithPassCompression(N);
 
         while (scanner.hasNext()) {

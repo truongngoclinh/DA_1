@@ -16,7 +16,7 @@ public class WeightedQuickUnionWithPassCompression extends WeightedQuickUnion {
     @Override
     protected int root(int i) {
         while (i != id[i]) {
-            id[i] = id[id[i]];
+            id[i] = id[id[i]]; // points node to its grandparents node
             i = id[i];
         }
 

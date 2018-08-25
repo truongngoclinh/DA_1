@@ -22,6 +22,11 @@ public class QuickFind extends UF {
         }
     }
 
+    public int numberOfComponents() {
+        return 0;
+        //
+    }
+
     public boolean isConnected(int p, int q) {
         return id[p] == id[q];
     }
@@ -35,10 +40,16 @@ public class QuickFind extends UF {
     }
 
     public void ids() {
+        // points
+        for (int i = 0; i < id.length; i++) {
+            System.out.print(i + " ");
+        }
+        System.out.println("");
+
+        // values
         for (int i = 0; i < id.length; i++) {
             System.out.print(id[i] + " ");
         }
-
         System.out.println("");
     }
 
