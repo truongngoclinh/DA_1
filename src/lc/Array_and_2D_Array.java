@@ -12,7 +12,7 @@ import java.util.logging.Level;
  * @organization VED
  */
 
-public class Array_String {
+public class Array_and_2D_Array {
     // Find Pivot Index
   /*  public int pivotIndex(int[] nums) {
         int total = 0;
@@ -237,7 +237,7 @@ public class Array_String {
 
         return result;
     }*/
-
+/*
     // Pascal Triangle
     public int solution() {
         int N = 5;
@@ -268,6 +268,6 @@ public class Array_String {
         }
 
         return 0;
-    }
+    }*/
 }
 

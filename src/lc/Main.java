@@ -9,8 +9,10 @@ package lc;
  */
 
 public class Main {
+
    public static void main(String[] args) {
-       int result = new Array_String().solution();
+//       int result = new Array_and_2D_Array().solution();
+       int result = new String_().solution();
        System.out.println("Result: " + result);
    }
 }
