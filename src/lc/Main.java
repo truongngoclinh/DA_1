@@ -12,7 +12,12 @@ public class Main {
 
    public static void main(String[] args) {
 //       int result = new Array_and_2D_Array().solution();
-       int result = new String_().solution();
-       System.out.println("Result: " + result);
+//       int result = new String_().solution();
+//       int result = new TwoPointers().solution();
+//       int result = new LinkedList().solution();
+//       int result = new Tree().solution();
+       int result = new Queue().solution();
+
+       System.out.println("\nResult: " + result);
    }
 }

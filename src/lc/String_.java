@@ -1,5 +1,9 @@
 package lc;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+
 /**
  * CLASS DESCRIPTION
  *
@@ -68,32 +72,79 @@ public class String_ {
         }
     }*/
 
-    // Longest Common Prefix
+/*    // Longest Common Prefix - use sorting
     public int solution() {
 
-//        String[] input = {"flower", "flow", "flight"};
+//        String[] strs = {"flower", "flow", "flight"};
         String[] strs = {"c", "c"};
 
-        int i, j, l = strs.length;
-        int prev = 0, next = 0;
-        for (i = 0; i < l - 1; i++) {
-            String str = strs[i];
-            String nextStr = strs[i + 1];
-            for (j = 0; ; j++) {
-                next = j;
-                if (j == str.length() || j == nextStr.length()) break;
+       // if (strs.length == 0) return "";
+       // if (strs.length == 1) return strs[0];
 
-                if (str.charAt(j) != nextStr.charAt(j)) {
-                    if (j > prev) next = prev;
+        ArrayList<String> arrayList = new ArrayList<>();
+        for (String str : strs) {
+            arrayList.add(str);
+        }
 
-                    break;
-                }
+        Collections.sort(arrayList);
+
+        String first = arrayList.get(0);
+        String last = arrayList.get(arrayList.size() - 1);
+        if (first.length() == 0) {
+            System.out.println("");
+            return 0;
+        }
+
+        int i = 0;
+        while (i < first.length()) {
+            if (first.charAt(i) == last.charAt(i)) {
+                i++;
+            } else {
+                break;
             }
         }
 
-        System.out.println(strs[l - 1].substring(0, next));
+        System.out.println(first.substring(0 , i));
+
+        return 0;
+    }*/
+
+    // Longest Common Prefix
+    public int solution() {
+
+        String[] strs = {"abc","abcc","abc","abca","abca"};
+//        String[] strs = {"dog","racecar","car"};
+//        String[] strs = {"aaa","aa","aaa"};
+//        String[] strs = {"c", "c"};
+
+/*        if (strs.length == 0) return "";
+        if (strs.length == 1) return strs[0];*/
+
+        int i = 0, j = 0, k = strs[0].length();
+        while (i < strs.length - 1) {
+            j = 0;
+            while (true) {
+                String c = strs[i];
+                String n = strs[i+1];
+                if (c.isEmpty() || n.isEmpty()) {
+                    System.out.println("");
+                    return 0;
+                }
+                if (k > n.length()) k = n.length();
+                if (j == k) break;
+                if (c.charAt(j) == n.charAt(j)) {
+                    j++;
+                } else {
+                    k = j;
+                    break;
+                }
+            }
+
+            i++;
+        }
+
+        System.out.println(strs[0].substring(0, k));
 
         return 0;
     }
-
 }
