@@ -16,7 +16,8 @@ public class Main {
 //       int result = new TwoPointers().solution();
 //       int result = new LinkedList().solution();
 //       int result = new Tree().solution();
-       int result = new Queue().solution();
+//       int result = new Queue().solution();
+       int result = new Stack().solution();
 
        System.out.println("\nResult: " + result);
    }

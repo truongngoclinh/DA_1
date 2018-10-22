@@ -1,5 +1,6 @@
 package lc;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Set;
@@ -14,7 +15,7 @@ import java.util.Set;
 
 public class Queue {
     /*int solution() {
-        */
+     */
 
     /**
      * Your MyCircularQueue object will be instantiated and called as such:
@@ -232,160 +233,60 @@ public class Queue {
     }
 
 
-    // BFS - Open the Lock
-    public int solution() {
+    // BFS - Open the Lock - bidirectional seach to optimize
+    /*public int solution() {
         String deadends[] = {"0201", "0101", "0102", "1212", "2002"};
         String target = "0202";
 
-        if (target.equals("0000")) return 0;
+        Set<String> d = new HashSet<>(Arrays.asList(deadends));
+        String t = target;
+        java.util.Queue<String> q = new LinkedList<>();
 
-        int step = 0;
-        Set<Lock> used = new HashSet<>();
-        java.util.Queue<Lock> q = new LinkedList<>();
+        String h = "0000";
+        q.offer(h);
+        d.add(h);
 
-        Lock head = new Lock(0, 0, 0, 0);
-        q.offer(head);
-        used.add(head);
+        // BASIC
+        int step = 0, size = 0;
         while (!q.isEmpty()) {
+            size = q.size();
+            for (int i = 0; i < size; i++) { // to calculate step
+                h = q.poll();
+                for (int j = 0; j < 4; j++) {
+                    int k = h.charAt(j) - '0';   // convert chart to int
+                    int pool[] = {(k + 1) % 10, ((k - 1) + 10) % 10};
+                    for (int p : pool) {
+                        String solution = h.substring(0, j) + p + h.substring(j + 1);
+                        if (solution.equals(t)) {
+                            step++;
+                            System.out.println(step);
+                            return step;
+                        }
+
+                        if (!d.contains(solution)) {
+                            q.offer(solution);
+                            d.add(solution);
+                        }
+                    }
+                }
+            }
             step++;
-            Lock lock = q.peek();
-            if (lock.bingo(target)) {
-                break;
-            }
-
-            for (int i = 0; i < 4; i++) {
-                rollUp(deadends, q, used, lock, i);
-                rollDown(deadends, q, used, lock, i);
-            }
-
         }
 
 
-        System.out.println("Step: " + step);
+        System.out.println(step);
+
         return 0;
-    }
+    }*/
 
-    private boolean deadends(String[] dends, String target) {
-        for (String str : dends) {
-           if (target.equals(str))  {
-               return true;
-           }
-        }
 
-        return false;
-    }
+    // Perfect Square @TODO
+    int solution() {
+        int n = 12;
 
-    private void rollUp(String dends[], java.util.Queue q, Set<Lock> used, Lock lock, int index) {
-        if (lock.get(index) < 9) {
-            Lock tmp = lock.up(index);
-            if (!used.contains(tmp) && !deadends(dends, lock.toString())) {
-                q.offer(tmp);
-            }
-        }
-    }
 
-    private void rollDown(String dends[], java.util.Queue q, Set<Lock> used, Lock lock, int index) {
-        if (lock.get(index) > 0) {
-            Lock tmp = lock.down(index);
-            if (!used.contains(tmp) && !deadends(dends, lock.toString())) {
-                q.offer(tmp);
-            }
-        }
-    }
 
-    private class Lock {
-        int i, j, k, l;
 
-        public Lock(int i, int j, int k, int l) {
-            this.i = i;
-            this.j = j;
-            this.k = k;
-            this.l = l;
-        }
-
-        public Lock copy() {
-            int i = this.i;
-            int j = this.j;
-            int k = this.k;
-            int l = this.l;
-
-            return new Lock(i, j, k, l);
-        }
-
-        public int get(int index) {
-            switch (index) {
-                case 0:
-                    return i;
-                case 1:
-                    return j;
-                case 2:
-                    return k;
-                case 3:
-                    return l;
-            }
-
-            return 0;
-        }
-
-        public Lock up(int index) {
-            switch (index) {
-                case 0:
-                    this.i++;
-                    break;
-                case 1:
-                    this.j++;
-                    break;
-                case 2:
-                    this.k++;
-                    break;
-                case 3:
-                    this.l++;
-                    break;
-            }
-
-            return this.copy();
-        }
-
-        public Lock down(int index) {
-            switch (index) {
-                case 0:
-                    this.i--;
-                    break;
-                case 1:
-                    this.j--;
-                    break;
-                case 2:
-                    this.k--;
-                    break;
-                case 3:
-                    this.l--;
-                    break;
-            }
-
-            return this.copy();
-        }
-
-        public boolean bingo(String target) {
-            return toString().equals(target);
-        }
-
-        public String toString() {
-            StringBuilder builder = new StringBuilder();
-            builder.append(i);
-            builder.append(j);
-            builder.append(k);
-            builder.append(l);
-
-            return builder.toString();
-        }
-
-        @Override
-        public boolean equals(Object obj) {
-            if (obj instanceof Lock) {
-                return this.toString().equals(((Lock)obj).toString());
-            }
-
-            return false;
-        }
+        return 0;
     }
 }

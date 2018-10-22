@@ -101,15 +101,15 @@ public class TwoPointers {
         int[] numbers = {2, 7, 11, 15};
         int target = 9;
 
-        int l = numbers.length;
+        int solution = numbers.length;
         int[] result = new int[2];
 *//*
         HashMap<Integer, Integer> hashMap = new HashMap<>();
-        for (int i = 0; i < l; i++) {
+        for (int i = 0; i < solution; i++) {
             hashMap.put(target - numbers[i], i);
         }
 
-        for (int i = 0; i < l; i++) {
+        for (int i = 0; i < solution; i++) {
             int tmp = hashMap.getOrDefault(numbers[i], -1);
             if (tmp > -1) {
                 result[0] = ++i;
@@ -119,7 +119,7 @@ public class TwoPointers {
         }*//*
 
 
-       *//* int i = 0, j = l - 1;
+       *//* int i = 0, j = solution - 1;
         while (i < j) {
             int sum = numbers[i] + numbers[j];
             if (sum < target) i++;
@@ -189,10 +189,10 @@ public class TwoPointers {
         System.out.println("result = " + result);
         *//*
 
-        int sum = 0, k = 0, l = nums.length;
-        for (int i = 0; i < l; i++) {
+        int sum = 0, k = 0, solution = nums.length;
+        for (int i = 0; i < solution; i++) {
             sum += nums[i];
-            if (nums[i] == 0 || i == l - 1) {
+            if (nums[i] == 0 || i == solution - 1) {
                 if (k < sum) k = sum;
                 sum = 0;
             }
@@ -209,12 +209,12 @@ public class TwoPointers {
 //        int s = 7, nums[] = {2,3,1,2,4,3};
         int s = 11, nums[] = {1,2,3,4,5};
 
-     *//*   int result = 0, i = 0, j, l = nums.length;
+     *//*   int result = 0, i = 0, j, solution = nums.length;
         int sum;
-        while (i < l) {
+        while (i < solution) {
             j = i;
             sum = 0;
-            while (sum < s && j < l) {
+            while (sum < s && j < solution) {
                 sum += nums[j];
                 j++;
             }
@@ -248,9 +248,9 @@ public class TwoPointers {
 //        int[] input = {5, 4, 3, 1, 2};
         int max = 0, l = input.length, i = 0, j = 0, k = Integer.MIN_VALUE;
 
-   /*     while (i < l) {
+   /*     while (i < solution) {
             j = i + 1;
-            while (j < l && input[i] > input[j]) {
+            while (j < solution && input[i] > input[j]) {
                 int t = input[j] - input[i];
                 if (t > k) max = Math.max(max, j-i+1);
                 if (k == 0 || k < t) k = t;
@@ -258,7 +258,7 @@ public class TwoPointers {
                 j++;
             }
 
-            if (j != l) max = Math.max(max, j-i+1);
+            if (j != solution) max = Math.max(max, j-i+1);
 
             i++;
         }*/

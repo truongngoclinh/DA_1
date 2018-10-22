@@ -295,18 +295,18 @@ public class LinkedList {
 //            return null;
         }
 
-        int idx = 0, l = 0;
+        int idx = 0, solution = 0;
         while (true) {
             if (node == null) {
                 node = linkedList.head;
-                l = idx;
+                solution = idx;
                 idx = 0;
             } else {
                 node = node.next;
                 idx++;
             }
 
-            if (idx == l - n - 1) {
+            if (idx == solution - n - 1) {
                 node.next = node.next.next;
                 break;
             }
@@ -510,19 +510,19 @@ public class LinkedList {
         MyLinkedList.Node head = linkedList.head;
         MyLinkedList.Node h = head, s = null;
 
-        int l = 1;
+        int solution = 1;
         while (head.next != null) {
             head = head.next;
-            l++;
+            solution++;
         }
 
         head = h;
 
-        int p = l/2;
+        int p = solution/2;
         int i = 1;
         while (head.next != null) {
             if (i == p) {
-                if (l % 2 == 0) {
+                if (solution % 2 == 0) {
                     s = head.next;
                 } else {
                     s = head.next.next;
