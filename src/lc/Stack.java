@@ -1,5 +1,8 @@
 package lc;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * CLASS DESCRIPTION
  *
@@ -148,50 +151,125 @@ public class Stack {
     }
 
 
-    // DAILY TEMPs
+/*    // DAILY TEMPs
     int solution() {
         int[] T = {73, 74, 75, 71, 69, 72, 76, 73}; // [1, 1, 4, 2, 1, 1, 0, 0].
 
-        int[] r = new int[T.length];
-        int[] s = T;
-        int i = T.length-1, count = 0;
-        for (int j : T) {
-            if (j > s[i]) {
-
-            } else {
-                count++;
+        int l = T.length, r[] = new int[l], s[] = new int[l], top = -1;
+        for (int i = 0; i < l; i++) {
+            while (top > -1 && T[i] > T[s[top]]) {
+                int idx = s[top--];
+                r[idx] = i - idx;
             }
+
+            s[++top] = i;
         }
 
-        // TIME LIMIT EXCEEDS
-       /* int i = 0, c = T[i], l = T.length, count = 0;
 
-        for (int j = i; j < l; j++) {
-            if (i == l - 1) {
-                T[i] = 0;
+        for (int i : r) {
+            System.out.print(i + " ");
+        }
+
+        return 0;
+    }*/
+
+
+    // TARGET SUM
+    /*
+    -1+1+1+1+1 = 3
+    +1-1+1+1+1 = 3
+    +1+1-1+1+1 = 3
+    +1+1+1-1+1 = 3
+    +1+1+1+1-1 = 3
+     */
+   /* int solution() {
+//        int[] nums = {1, 1, 1, 1, 1};
+        long t = System.currentTimeMillis();
+//        int[] nums = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1};
+//        int[] nums = {1, 0};
+        int[] nums = {42,24,30,14,38,27,12,29,43,42,5,18,0,1,12,44,45,50,21,47, 38};
+        int S = 38, r;
+
+        Set<String> v = new HashSet<>();
+        r = DFS('+', S, v, "", nums) + DFS('-', S, v, "", nums);
+
+        System.out.println("r = " + r + "\nt = " + (System.currentTimeMillis() - t));
+
+        return 0;
+    }
+
+    int DFS(char n, int S, Set v, String cur, int[] nums) {
+        int c = cur.length();
+        while (c < nums.length) {
+            if (nums[c] == 0) {
+                cur += '^';
+                c++;
+            } else {
                 break;
             }
-            if (T[j] <= c) {
-                if (j == l - 1) {
-                    T[i] = 0;
-                    count = 0;
-                    j = i;
-                    c = T[++i];
-                } else {
-                    count++;
-                }
-            } else {
-                T[i] = count;
-                count = 0;
-                j = i;
-                c = T[++i];
+        }
+
+        if (c < nums.length) {
+            cur += n;
+            c++;
+        }
+
+        if (!v.contains(cur)) {
+            v.add(cur);
+            if (cur.length() == nums.length) {
+                if (sum(cur, nums) == S) return mul(cur);
+                else return 0;
+            }
+
+            return DFS('+', S, v, cur, nums) + DFS('-', S, v, cur, nums);
+        }
+
+        return 0;
+    }
+
+    int mul(String cur) {
+        int r = 1;
+        for (char s : cur.toCharArray()) {
+            if (s == '^') {
+                r *= 2;
             }
         }
 
-        for (int j : T) {
-            System.out.println(j + " ");
+        return r;
+    }
+
+    int sum(String cur, int[] nums) {
+        int sum = 0;
+        char[] ops = cur.toCharArray();
+        for (int i = 0; i < nums.length; i++) {
+            if (ops[i] == '+') {
+                sum += nums[i];
+            } else if (ops[i] == '-') {
+                sum -= nums[i];
+            } else {
+                continue;
+            }
         }
-*/
+
+        return sum;
+    }*/
+
+    int solution() {
+        long t1 = System.currentTimeMillis();
+        int[] nums = {42,24,30,14,38,27,12,29,43,42,5,18,0,1,12,44,45,50,21,47, 38};
+//        int[] nums = {1, 0};
+        int S = 38, r;
+        r = dfs(nums, 0, S, 0);
+        System.out.println("r = " + r + "\nt = " + (System.currentTimeMillis() - t1));
+
         return 0;
+    }
+
+    private int dfs(int[] nums, int sum, int target, int k) {
+        if (nums.length == k) {
+            return sum == target ? 1 : 0;
+        }
+        return dfs(nums, sum + nums[k], target, k + 1) +
+                dfs(nums, sum - nums[k], target, k + 1);
     }
 }
