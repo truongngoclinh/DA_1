@@ -1,5 +1,7 @@
 package lc;
 
+import ntuc.TreeCutting;
+
 /**
  * CLASS DESCRIPTION
  *
@@ -17,7 +19,10 @@ public class Main {
 //       int result = new LinkedList().solution();
 //       int result = new Tree().solution();
 //       int result = new Queue().solution();
-       int result = new Stack().solution();
+//       int result = new Stack().solution();
+//       int result = new BST().solution();
+//       int result = new TreeCutting().solution();
+       int result = new HB().solution();
 
        System.out.println("\nResult: " + result);
    }

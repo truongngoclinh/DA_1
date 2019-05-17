@@ -1,6 +1,9 @@
 package lc;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -254,7 +257,7 @@ public class Stack {
         return sum;
     }*/
 
-    int solution() {
+ /*   int solution() {
         long t1 = System.currentTimeMillis();
         int[] nums = {42,24,30,14,38,27,12,29,43,42,5,18,0,1,12,44,45,50,21,47, 38};
 //        int[] nums = {1, 0};
@@ -271,5 +274,132 @@ public class Stack {
         }
         return dfs(nums, sum + nums[k], target, k + 1) +
                 dfs(nums, sum - nums[k], target, k + 1);
+    }*/
+    /*
+
+     */
+
+    public Stack() {
     }
+
+    // TRAVERSAL
+    int solution() {
+        TreeNode root = new TreeNode(1);
+        root.left = null;
+        root.right = new TreeNode(2);
+        root.right.left = new TreeNode(3);
+        root.right.right = new TreeNode(4);
+
+
+        List<Integer> r = new ArrayList<>();
+        Set<TreeNode> v = new HashSet<>();
+        java.util.Stack<TreeNode> s = new java.util.Stack<>();
+        // IN
+//        inorder(root, r);
+  /*      s.push(root);
+        while (!s.empty()) {
+            TreeNode c = s.peek();
+            if (c.left != null && !v.contains(c.left)) s.push(c.left);
+            else {
+                TreeNode n = s.pop();
+                v.add(n);
+                r.add(n.val);
+
+                if (n.right != null) {
+                    s.push(n.right);
+                }
+            }
+        }*/
+//        s.push(root);
+//        TreeNode cur = root;
+//        while (cur != null || !s.isEmpty()) {
+//            while (cur != null) {
+//                s.push(cur);
+//                cur = cur.left;
+//            }
+//
+//            cur = s.pop();
+//            r.add(cur.val);
+//            cur = cur.right;
+//        }
+
+        // PRE
+//        preorder(root, r);
+     /*   s.push(root);
+        while (!s.empty()) {
+            TreeNode n = s.peek();
+            if (!v.contains(n)) {
+                r.add(n.val);
+                v.add(n);
+            }
+
+            if (n.left != null && !v.contains(n.left)) s.push(n.left);
+            else {
+                n = s.pop();
+                if (n.right != null) s.push(n.right);
+            }
+        }*/
+   /*     TreeNode cur = root;
+        while (cur != null || !s.isEmpty()) {
+            while (cur != null) {
+                s.push(cur);
+                r.add(cur.val);
+                cur = cur.left;
+            }
+
+            cur = s.pop();
+            cur = cur.right;
+        }*/
+
+
+        // POST ORDER
+//        postorder(root, r);
+        LinkedList<Integer> rl = new LinkedList<>();
+        TreeNode cur = root;
+        while (!s.isEmpty() && cur != null) {
+            if (cur != null) {
+
+            }
+        }
+
+        for (int i : rl) {
+            System.out.print(i + " ");
+        }
+
+//        for (int i : r) {
+//            System.out.print(i + " ");
+//        }
+
+        return 0;
+    }
+
+    private void inorder(TreeNode c, List<Integer> r) {
+        if (c.left != null) inorder(c.left, r);
+        r.add(c.val);
+        if (c.right != null) inorder(c.right, r);
+    }
+
+    private void preorder(TreeNode n, List<Integer> r) {
+        r.add(n.val);
+        if (n.left != null) preorder(n.left, r);
+        if (n.right != null) preorder(n.right, r);
+    }
+
+    private void postorder(TreeNode n, List<Integer> r) {
+        if (n.left != null) postorder(n.left, r);
+        if (n.right != null) postorder(n.right, r);
+        r.add(n.val);
+    }
+
+    private class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int x) {
+            this.val = x;
+        }
+    }
+
+
 }
