@@ -22,8 +22,7 @@ public class Main {
 //       int result = new Stack().solution();
 //       int result = new BST().solution();
 //       int result = new TreeCutting().solution();
-       int result = new HB().solution();
-
-       System.out.println("\nResult: " + result);
+//       int result = new HB().solution();
+       new TwoArray().solution();
    }
 }
