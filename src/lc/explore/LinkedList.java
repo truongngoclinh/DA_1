@@ -1,4 +1,4 @@
-package lc;
+package lc.explore;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;

@@ -1,5 +1,6 @@
 package lc;
 
+import lc.explore.HashTable;
 import ntuc.TreeCutting;
 
 /**
@@ -12,7 +13,7 @@ import ntuc.TreeCutting;
 
 public class Main {
 
-   public static void main(String[] args) {
+    public static void main(String[] args) {
 //       int result = new Array_and_2D_Array().solution();
 //       int result = new String_().solution();
 //       int result = new TwoPointers().solution();
@@ -22,8 +23,6 @@ public class Main {
 //       int result = new Stack().solution();
 //       int result = new BST().solution();
 //       int result = new TreeCutting().solution();
-       int result = new HB().solution();
-
-       System.out.println("\nResult: " + result);
-   }
+        new HashTable().solution();
+    }
 }

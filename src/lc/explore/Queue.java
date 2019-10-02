@@ -1,4 +1,4 @@
-package lc;
+package lc.explore;
 
 import java.util.Arrays;
 import java.util.HashSet;
