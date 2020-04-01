@@ -1,6 +1,7 @@
 package lc;
 
 import lc.explore.HashTable;
+import lc.onemonthchallenge.OneMonth;
 import ntuc.TreeCutting;
 
 /**
@@ -23,6 +24,7 @@ public class Main {
 //       int result = new Stack().solution();
 //       int result = new BST().solution();
 //       int result = new TreeCutting().solution();
-        new HashTable().solution();
+//        new HashTable().solution();
+         new OneMonth().solution();
     }
 }

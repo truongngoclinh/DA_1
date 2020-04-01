@@ -246,6 +246,6 @@ public class HashTable {
 
     // INTERSECTION OF TWO ARRAYS
     public int[] intersect(int[] nums1, int[] nums2) {
-
+        return new int[2];
     }
 }
