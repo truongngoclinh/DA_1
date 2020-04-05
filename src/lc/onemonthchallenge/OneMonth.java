@@ -14,8 +14,14 @@ public class OneMonth {
 //        System.out.print("Result: " + maxSubArray(a));
 
 //        int a[] = {0, 1, 0, 3, 12};
-        int a[] = {4, 2, 4, 0, 0, 3, 0, 5, 1, 0};
-        moveZeroes(a);
+//        int a[] = {4, 2, 4, 0, 0, 3, 0, 5, 1, 0};
+//        moveZeroes(a);
+
+//        int a[] = {7, 1, 5, 3, 6, 4};
+//        int a[] = {7,6,4,3,1};
+//        int a[] = {1, 2, 3, 4, 5};
+        int a[] = {1, 2};
+        System.out.print(maxProfit(a));
 
         return 0;
     }
@@ -78,11 +84,58 @@ public class OneMonth {
         while (j < l) nums[j++] = 0;
 
 
-
         System.out.println("Result: ");
         for (int k = 0; k < nums.length; k++) {
             System.out.print(nums[k] + " ");
         }
     }
 
+
+    public int maxProfit(int[] prices) {
+        if (prices.length == 1) return 0;
+
+        int s = 0, i = 0, l = prices.length;
+        while (++i < l) {
+            s += Math.max((prices[i] - prices[i - 1]), 0);
+        }
+
+        return s;
+
+       /* int profit = 0, entry = -1, i = 0, l = prices.length;
+
+        while (++i < l) {
+            if (prices[i] > prices[i - 1]) {
+                if (entry == -1) {
+                    entry = prices[i - 1];
+                }
+                if (i == l - 1) {
+                    profit += prices[i] - entry;
+                }
+            } else {
+                if (entry != -1) {
+                    profit += prices[i - 1] - entry;
+                    entry = prices[i];
+                }
+            }
+        }*/
+
+      /*  while (++i < l) {
+            if (prices[i] > prices[j]) {
+                while (++i < l) {
+                    if (prices[i] < prices[i - 1]) {
+                        p += prices[i - 1] - prices[j];
+                        j = i;
+                    }
+                    if (i == l - 1) {
+                        p += prices[i] - prices[j];
+                    }
+                }
+            } else {
+                j = i;
+            }
+        }
+        return p;
+
+       */
+    }
 }
