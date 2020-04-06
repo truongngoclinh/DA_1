@@ -1,5 +1,10 @@
 package lc.onemonthchallenge;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class OneMonth {
 
     public int solution() {
@@ -20,8 +25,11 @@ public class OneMonth {
 //        int a[] = {7, 1, 5, 3, 6, 4};
 //        int a[] = {7,6,4,3,1};
 //        int a[] = {1, 2, 3, 4, 5};
-        int a[] = {1, 2};
-        System.out.print(maxProfit(a));
+//        int a[] = {1, 2};
+//        System.out.print(maxProfit(a));
+
+        String a[] = {"eat", "tea", "tan", "ate", "nat", "bat"};
+        groupAnagrams(a);
 
         return 0;
     }
@@ -138,4 +146,47 @@ public class OneMonth {
 
        */
     }
+
+    public List<List<String>> groupAnagrams(String[] strs) {
+        List<List<String>> r = new ArrayList<>();
+        Map<String, List<String>> m = new HashMap<>();
+
+        for (String str : strs) {
+            String hash = hash(str);
+            List<String> v = m.getOrDefault(hash, new ArrayList<>());
+            v.add(str);
+            m.put(hash, v);
+        }
+
+        for (List<String> list : m.values()) {
+            r.add(list);
+            for (String str : list) {
+                System.out.print(str + " ");
+            }
+            System.out.println("");
+        }
+
+        return r;
+    }
+
+    private String hash(String str) {
+        int i = 0, s = 0, m = 1;
+        while (i++ < str.length()) {
+            int t = str.charAt(i - 1);
+            m *= t;
+            s += t;
+        }
+
+        return String.valueOf(s + m);
+    }
+
+ /*   //  hash with prime array
+    private String hash(String str) {
+
+    }*/
+
+  /*   //  hash with flag count charactes in array: c - 'a'
+    private String hash(String str) {
+
+    }*/
 }
