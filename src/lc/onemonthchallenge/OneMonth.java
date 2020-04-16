@@ -28,8 +28,10 @@ public class OneMonth {
 //        int a[] = {1, 2};
 //        System.out.print(maxProfit(a));
 
-        String a[] = {"eat", "tea", "tan", "ate", "nat", "bat"};
-        groupAnagrams(a);
+//        String a[] = {"eat", "tea", "tan", "ate", "nat", "bat"};
+//        groupAnagrams(a);
+
+//        S = "a##c", T = "#a#c";
 
         return 0;
     }
@@ -189,4 +191,81 @@ public class OneMonth {
     private String hash(String str) {
 
     }*/
+
+    /**
+     * Definition for singly-linked list.
+     * public class ListNode {
+     * int val;
+     * ListNode next;
+     * ListNode(int x) { val = x; }
+     * }
+     */
+
+/*    public ListNode middleNode(ListNode head) {
+        if (head.next == null) return head;
+
+        ListNode h1 = head, h2 = head;
+        while (h2.next != null) {
+            h1 = h1.next;
+            h2 = h2.next.next;
+            if (h2 == null) break;
+        }
+
+        return h1;
+    }*/
+
+  /*  public boolean backspaceCompare(String S, String T) {
+
+        char[] s = S.toCharArray(), t = T.toCharArray();
+        int i = s.length - 1, j = t.length - 1;
+
+        while (i >= 0 || j >= 0) {
+            i = nextValidIndex(i, s);
+            j = nextValidIndex(j, t);
+            if ((i < 0 && j >= 0) || (i >= 0 && j < 0)) return false;
+            if (i >= 0) {
+                if (s[i] == t[j]) {
+                    i--;
+                    j--;
+                } else {
+                    return false;
+                }
+            }
+        }
+
+        return i == -1 && j == -1;
+    }
+
+    private int nextValidIndex(int i, char[] str) {
+        int count = 0;
+        while (i >= 0 && (str[i] == '#' || count > 0)) {
+            if (str[i] == '#') {
+                count++;
+                i--;
+            } else {
+                if (count > 0) {
+                    i--;
+                    count--;
+                }
+            }
+        }
+
+        return i;
+    }*/
+
+    //      Definition for a binary tree node.
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int x) {
+            val = x;
+        }
+    }
+
+    public int diameterOfBinaryTree(TreeNode root) {
+
+        return 0;
+    }
 }
