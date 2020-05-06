@@ -1,6 +1,8 @@
 package lc;
 
 import lc.explore.HashTable;
+import lc.explore.Recursion;
+import lc.maychallenge.May;
 import lc.onemonthchallenge.OneMonth;
 import ntuc.TreeCutting;
 
@@ -25,6 +27,8 @@ public class Main {
 //       int result = new BST().solution();
 //       int result = new TreeCutting().solution();
 //        new HashTable().solution();
-         new OneMonth().solution();
+//         new OneMonth().solution();
+//        new Recursion().solution();
+        new May().solution();
     }
 }
